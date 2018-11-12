@@ -5,7 +5,7 @@ jobs:
 #      only:
 #        - testing
     docker:
-      - image: debian:stretch
+      - image: hashicorp/terraform:light
     steps:
       - checkout
       - run:
